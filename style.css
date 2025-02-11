@@ -9,6 +9,7 @@ html, body {
     min-height: 100vh;
     overflow-x: hidden;
 }
+
 .home{
     width: 50rem;
     height: 100vh;
@@ -22,6 +23,7 @@ html, body {
 @media screen {
 
     .image-container {
+        display: flex;
         width: 50em;        
         height: 100vh;        
         perspective: 1000em;  
@@ -50,6 +52,9 @@ html, body {
 
 
 .sidebar {
+   
+    background-repeat: no-repeat;
+    display: flex;
     width: 12rem; 
     height: 100vh; 
     background-color: #001a66; 
@@ -59,6 +64,7 @@ html, body {
  
    
 }
+
 
 
 .sidebar a {
@@ -77,13 +83,15 @@ html, body {
 
 
 .sidebar a:hover {
-    background-color: #0044cc;
+    color: #060000;
+    background-color: yellow;
     transform: scale(1.1);
     transition: 0.3s;
 }
 
 
  body {
+       display: flex;
         position: relative;
         margin: 0;
         padding-left: 13rem;
@@ -93,6 +101,7 @@ html, body {
 
 @media screen{
     body {
+        display: flex;
         flex-direction: column;
     }
 
@@ -111,6 +120,7 @@ html, body {
 }
 
 body::before {
+    display: flex;
     content: "";
     position: absolute;
     top: 0;
@@ -128,6 +138,7 @@ body::before {
 
 
 .header{
+    display: flex;
     height: 100vh;
     width: 10rem;
     position: fixed;
@@ -138,11 +149,13 @@ body::before {
 }
 
 .logo {
+    display: flex;
     text-align: center;
     margin-bottom: 2rem;
 }
 
 .logo img {
+    display: flex;
     width: 0%; 
     height: auto;
     border-radius: 0.5rem; 
@@ -152,6 +165,7 @@ body::before {
 
     
 .vision {
+    display: flex;
     width: 90%;
     max-width: 50rem;
     margin: 2rem auto;
@@ -498,3 +512,264 @@ body::before {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
+
+@media screen and (min-width: 360px) {
+    
+.ccis{
+    display: flex;
+    width: 90%;
+    max-width: 50rem;
+    height: 50vh;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    background: linear-gradient(to right,green 10%, #43e51e 40%, rgba(202, 70, 61, 0) 70%), 
+    url('ccis1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1)
+    
+}
+.ccis h2 {
+    display: flex;
+    color: #060000;
+    -webkit-text-stroke: 2px whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+
+}
+.ccis ul {
+    background-color: white;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.ccis:hover {
+    transform: translateY(-1rem);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+}
+
+@media screen and (min-width: 360px) {
+    
+    .cbm{
+        display: flex;
+        width: 90%;
+        max-width: 50rem;
+        height: 60vh;
+        margin: 2rem auto;
+        padding: 2.5rem;
+        border-radius: 1rem;
+        background: linear-gradient(to right,yellow 10%, yellow 40%, rgba(202, 70, 61, 0) 70%), 
+        url('cbm\ logo.jpeg'); 
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1)
+        
+    }
+    .cbm h2 {
+        display: flex;
+        color: #060000;
+        -webkit-text-stroke: 2px whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+    
+    }
+    .cbm ul {
+        background-color: white;
+        border-radius: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+    }
+    .cbm:hover {
+        transform: translateY(-1rem);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    }
+    }
+
+    @media screen and (min-width: 360px) {
+    
+        .cas{
+            display: flex;
+            width: 90%;
+            max-width: 50rem;
+            height: 60vh;
+            margin: 2rem auto;
+            padding: 2.5rem;
+            border-radius: 1rem;
+            background: linear-gradient(to right, grey 10%, rgb(185, 207, 230) 40%, rgba(202, 70, 61, 0) 70%), 
+            url('cas.jpg'); 
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1)
+            
+        }
+        .cas h2 {
+            display: flex;
+            color: #060000;
+            -webkit-text-stroke: 2px whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3rem;
+        
+        }
+        .cas ul {
+            background-color: white;
+            border-radius: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+        }
+        .cas:hover {
+            transform: translateY(-1rem);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+        }
+        }
+  
+        
+ @media screen and (min-width: 360px) {
+    
+            .cte{
+                display: flex;
+                width: 90%;
+                max-width: 50rem;
+                height: 60vh;
+                margin: 2rem auto;
+                padding: 2.5rem;
+                border-radius: 1rem;
+                background: linear-gradient(to right, rgb(30, 71, 206) 10%, rgb(185, 207, 230) 40%, rgba(202, 70, 61, 0) 70%), 
+                url('CTE\ LOGO.png'); 
+                background-size: cover;
+                background-position: center;
+                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1)
+                
+            }
+            .cte h2 {
+                display: flex;
+                color: #060000;
+                -webkit-text-stroke: 2px whitesmoke;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 3rem;
+            
+            }
+            .cte ul {
+                background-color: white;
+                border-radius: 1rem;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.5rem;
+            }
+            .cte:hover {
+                transform: translateY(-1rem);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+            }
+ }  
+ 
+ @media screen and (min-width: 360px) {
+    
+    .ccje{
+        display: flex;
+        width: 90%;
+        max-width: 50rem;
+        height: 60vh;
+        margin: 2rem auto;
+        padding: 2.5rem;
+        border-radius: 1rem;
+        background: linear-gradient(to right, maroon 10%, rgb(235, 15, 44) 40%, rgba(202, 70, 61, 0) 70%), 
+        url('ccje.jpg'); 
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1)
+        
+    }
+    .ccje h2 {
+        display: flex;
+        color: #060000;
+        -webkit-text-stroke: 2px whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+    
+    }
+    .ccje ul {
+        background-color: white;
+        border-radius: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+    }
+    .ccje:hover {
+        transform: translateY(-1rem);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    }
+    }  
+ 
+ 
+    @media screen and (min-width: 360px) {
+    
+        .cthm{
+            display: flex;
+            width: 90%;
+            max-width: 50rem;
+            height: 60vh;
+            margin: 2rem auto;
+            padding: 2.5rem;
+            border-radius: 1rem;
+            background: linear-gradient(to right, rgb(28, 124, 11) 10%, rgb(58, 228, 61) 40%, rgba(202, 70, 61, 0) 70%), 
+            url('cthm.jpg'); 
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1)
+            
+        }
+        .cthm h2 {
+            display: flex;
+            color: #060000;
+            -webkit-text-stroke: 2px whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3rem;
+        
+        }
+        .cthm ul {
+            background-color: white;
+            border-radius: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+        }
+        .cthm:hover {
+            transform: translateY(-1rem);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+        }
+ }      
+
+
+ .services{
+   background: linear-gradient(to right, grey, white);
+   display: flex;
+   width: 90%;
+   max-width: 50rem;
+   height: 60vh;
+   margin: 2rem auto;
+   padding: 2.5rem;
+   border-radius: 1rem; 
+   background-size: cover;
+   background-position: center;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1)
+ }
+ .services h1{
+    color: yellow;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .services ul{
+    background: white;
+    background-color: white;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 2rem;
+ }
